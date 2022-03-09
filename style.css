@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@1,600&display=swap');
+
+
+
+body {
+  font-family: "Open Sans", Arial, sans-serif  ;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  background-color: #18161b;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+  
+nav h6 {
+  color: #3d9f96;
+  float: right;
+  text-decoration: underline;
+  padding-right: 12em;
+  margin: 3%;
+
+}
+
+@media screen and (max-width:768px) {
+  nav h6 {
+    color: #3d9f96;
+    float: right;
+    text-decoration: underline;
+    padding-right: 6em;
+    margin: 3%;
+  }
+}
+
+li a {
+  text-decoration: none;
+  color: #FFFF;
+  font-family: "Helvetica", Arial, sans-serif, 'Raleway';
+  float: left;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin: 3%;
+}
+
+@media screen and (max-width:768px) {
+  li a {
+    float: left;
+    padding-left: 2em;
+    padding-right: 0em;
+    margin: 3%;
+}
+}
+  
+
+
+img {
+  width: 20%;
+  font-size: 2em;
+  height: 20%;
+  text-align: center;
+  margin: 2%;
+   }
+   @media screen and (max-width:768px) {
+     img {
+      width: 30%;
+      font-size: 1em;
+      height: 20%;
+      text-align: center;
+      margin: 2%;
+     }
+   }
+   
+nav {
+  background-color: #18161b;
+  opacity: 0.9;
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+}
+
+ /* **************************************** */
+
+#énoncé {
+  text-align: center;
+  margin: 8%;
+}
+
+span {
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #FFFF;
+  font-weight: 1;
+}
+ 
+strong {
+  font-family: "Raleway", Arial, sans-serif; 
+  color: #FFFF;
+}
+
+h3 {
+  color:#3d9f96;
+  text-transform: uppercase;
+  font-family: "Raleway", Arial, sans-serif; 
+  font-size: 1.5em;
+}
+
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  color:#7e7e7e ;
+  font-weight: 1;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+button {
+  background-color: #3d9f96;
+  border: none;
+  color: #FFFF;
+  padding: 1.2em;
+  text-decoration: none;
+  display: flex;
+  font-size: 0.9em;
+  margin: 4em;
+  border-radius: 2rem;
+  margin-right: 0.1em;
+  text-align: center;
+  margin-left: 38em;
+  padding-left: 3.7em;
+  padding-right: 3.7em;
+  font-family: "Raleway", Arial, sans-serif;
+}
+@media screen and (max-width:768px){
+  button {
+    margin-left: 21em;
+  }
+}
+#premiereimage {
+  padding-top: 3.7em;
+  background: url(Archive/assets/img/image_600px_1.png) no-repeat 50% 50% ; 
+  background-size: 50em;
+  height: 21.8em;
+ 
+}
+ 
+@media screen and (max-width:768px){
+  #premiereimage {
+    font-size: 13px;
+    background: url(Archive/assets/img/image_600px_1.png) no-repeat 50% 50%;
+    height: 20.8em;
+  }
+
+}
+/* ******************************_****************************** */
+
+
+#réseauxsociaux {
+  background-color: rgb(255, 255, 255);
+}
+
+#réseaux a img {
+display: flex;
+width: 55%;
+font-size: 1em;
+overflow: hidden;
+margin-left: 22%;
+}
+
+
+h5 {
+  color: #3d9f96;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: large;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+h2 {
+  color: #18161b;
+  font-size: 2.5em;
+  font-family:  "Raleway", Arial, sans-serif;
+  text-align: center;
+  font-weight: 100;
+  margin: 4em;
+}
+
+@media screen and (max-width:768px){
+  h2 {
+    margin: 1em;
+  }
+}
+#presentation {
+  text-align: center;
+  color: #7e7e7e;
+  margin: -7em;
+}
+
+@media screen and (max-width:768px) {
+  #presentation {     padding-top: 93px;
+
+  }
+}
+
+#check {
+  color: #18161b;
+}
+
+
+#cite1 {
+  width: 15%;
+  float: left;
+  margin-left: 22%;
+  padding-top: 12em;
+  text-align: left;
+} 
+@media screen and (max-width:768px){
+  #cite1{
+      font-size: 18px;
+      width: 72%;
+      margin-left: 43%;
+      padding-top: 6em;
+  }
+}
+
+#cite2 {
+  width: 15%;
+  float: right;
+  margin: -18.8em;
+  margin-right: 22%;
+  text-align: right;
+}
+
+@media screen and (max-width:768px){
+  #cite2 {
+    width: 64%;
+    float: right;
+    margin: 2.2em;
+    margin-right: 22%;
+    text-align: right;
+    font-size: 19px;
+}
+  }
+
+#cite1 p {
+  color: #7e7e7e;
+}
+
+@media screen and (max-width:768px) {
+  #cite1 p {
+    margin-left: -135px;
+  }
+}
+  
+
+#phoneplay img {
+  margin: -5%;
+  width: 13%;
+  margin-left: 2.5em;
+  padding-top: 9em;
+
+}
+@media screen and (max-width:768px) {
+  #phoneplay img {
+    font-size: 16px;
+      margin: -5%;
+      width: 21%;
+      margin-left: 19.7em;
+      padding-top: 5em;
+  }
+}
+
+h6 {
+  font-size: 1em;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+#cite1 img {
+  float: left;
+  margin: -1%;
+  margin-right: 0.1%;
+  
+}
+
+@media screen and (max-width: 768px){
+#cite1 img {
+    float: left;
+    margin: -1%;
+    margin-right: 0.8%;
+    width: 41px;
+}
+}
+
+#cite2 img {
+  float: right;
+  margin: -1%;
+  margin-right: 1%;
+ 
+}
+
+@media screen and (max-width: 768px){
+  #cite2 img {
+    width: 41px;
+    margin: -1%;
+    margin-left: 56%;
+    float: left;
+  }
+  }
+  
+#cite2 h6 {
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  #cite2 h6 {
+    margin-right: 109px;
+  }
+}
+
+/* *************************00************************** */
+
+#test {
+  background-color: #f7f7f7;
+}
+
+#test img {
+  width: 95%;
+  padding-top: 15%;
+  height: 12em;
+  display: flex;
+  padding-left: 1.5%;
+
+}
+
+
+#test p {
+  text-align: center;
+  color: #FFFF;
+  padding-top: 3%;
+  margin: -15em;
+}
+
+#test h5 {
+  padding-top: 15em;
+}
+
+h4  {
+  text-align: left;
+  padding-top: 8em;
+  margin-left: 10em;
+  font-size: 1.2em;
+}
+
+ #best span {
+  color: black;
+
+}
+
+#best strong {
+  color: black;
+  font-family: "Open Sans", Arial, sans-serif ;
+}
+
+
+#screen {
+  padding-top: 4em;
+  margin-left: 10.5em;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+#textscreen h6  {
+  color: #000000;
+  font-family: Helvetica, Arial, sans-serif, 'Raleway';
+  display: inline;
+  justify-content: space-between;
+  margin-left: 11.8em;
+  padding: 0.5em;
+
+}
+
+/* *********************1*********************** */
+
+#litmus strong {
+  color: #000000;
+  font-family: "Open Sans", Arial, sans-serif ;
+}
+#litmus span {
+  color: #000000;
+
+}
+
+#litmus {
+  float: right;
+  margin-right: 21.5em;
+  font-size: 1.2em;
+  padding-top: 6em;
+ 
+}
+
+#p3 {
+  padding-top: 6em;
+  margin-left: 45.5em;
+}
+
+#playtext img {
+ height: 12em;
+ width: 37%;
+ margin: -12.5em;
+ margin-left: 6em;
+ float: left;
+}
+
+#buttonsee {
+  float: right;
+  margin-right: 24.5em;
+}
+
+#responsiveline span {
+  color: #000000;
+}
+
+#responsiveline strong {
+  color: #000000;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+#responsiveline {
+  padding-top: 12em;
+  font-size: 1.2em;
+  margin-left: 9.5em;
+}
+
+#textresponsive {
+  margin-left: 11.5em;
+}
+
+#buttonvisit {
+  float: left;
+  margin-left: 13em;
+}
+
+#phoneresponsive img {
+  width: 35%;
+  height: 17.5em;
+  margin: -9.5em;
+  float: right;
+  margin-right: 6em;
+}
+
+/* ********************2******************** */
+
+#logofooter img {
+  width: 25%;
+  float: left;
+  padding-top: 10em;
+  margin-left:-6.5em;
+}
+
+#textlogo {
+  float: left;
+  padding-top: 25.5em;
+  margin-left: -19em;
+}
+ 
+#information  {
+  padding-top: 12em;
+  margin-left: 5.5em;
+}
+
+#information p{
+  padding-top: -1em;
+  margin-left: 31em;
+
+}
+ 
+#information h4 {
+  margin-left: 26em;
+}
+
+#call {
+  float: right;
+  margin: -21em;
+  margin-right: 14em;
+}
+
+#call h4 {
+  margin-left: 0em;
+}
+
+#inform p {
+  padding-top: 8em;
+  margin-left: 13em;
+}
+
+#imageinform {
+  width: 13%;
+  display: flex;
+  margin: -3em;
+  margin-left: 49em;
+}
